@@ -1,4 +1,7 @@
-d:\prog\tcc\tcc sleep.c
-d:\prog\tcc\tcc -luser32 sendkey.c
+set TCC_APP=..\..\third_party\tcc\tcc
+
+%TCC_APP% sleep.c
+%TCC_APP% -luser32 sendkey.c
 pause
+
 
